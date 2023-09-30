@@ -1,0 +1,171 @@
+/* Root file styling and variables for sustainability*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --font-treb: 'Trebuchet MS', 'Lucinda Sans Unicode', 'Lucinda Grande', 'Lucinda Sans', Arial, sans-serif;
+    --font-gill: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --text-color-1: #ffffff;
+    --bg-color-1: #2a607c;
+    --bg-color-2: #2589bd;
+    --bg-color-3: #d9dcd6;
+    --bg-color-4: #0072bb;
+}
+
+/* Body background-color */
+body {
+    background-color: var(--bg-color-3);
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+    font-family: var(--font-treb);
+    background-color: var(--bg-color-1);
+    color: var(--text-color-1);
+}
+
+/* Header font styling */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* seo class font color within header */
+.seo {
+    color: var(--bg-color-3);
+}
+
+/* Header container styling */
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: var(--font-gill);
+    font-size: 20px;
+}
+
+/* Header navbar list styling */
+header div ul {
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Anchor styling */
+a {
+    color: var(--text-color-1);
+    text-decoration: none;
+}
+
+/* Font-size for all p elements */
+p {
+    font-size: 16px;
+}
+
+/* Originally hero class, changed to background image class */
+.background-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Content section styling */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Content container stylings */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: var(--font-gill);
+    background-color: var(--bg-color-4);
+    color: var(--text-color-1);
+}
+
+/* Image within content section */
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* h2 styling within content section */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Float class styles within content */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Benefits section styling */
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: var(--font-gill);
+    background-color: var(--bg-color-2);
+}
+
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: var(--text-color-1);
+}
+
+/* h3 styling within benefits section */
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Icon styling for benefits section. */
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Footer Styling */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: var(--font-treb);
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
