@@ -22,6 +22,10 @@ Completed.
 - HTML
 - CSS
 
+## Usage
+
+Please note this page is not respoinsive and will not display correctly on screens less than 768px in width.
+
 ## License
 
 See License for details
