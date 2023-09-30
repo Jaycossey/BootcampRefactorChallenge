@@ -24,7 +24,7 @@ Completed.
 
 ## Usage
 
-Please not this page is not designed for responsive web design and will not display correctly on screens less than 768px in width.
+Please note this page is not respoinsive and will not display correctly on screens less than 768px in width.
 
 ## License
 
