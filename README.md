@@ -24,7 +24,7 @@ Completed.
 
 ## Usage
 
-Please note this page is not respoinsive and will not display correctly on screens less than 768px in width.
+Please note this page is not responsive and will not display correctly on screens less than 768px in width.
 
 ## License
 
