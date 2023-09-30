@@ -1,6 +1,6 @@
-# BootcampRefactorChallenge
+# HTML and CSS refactoring
 
-Edx Bootcamp Module 1: Code refactor challenge
+Refactor HTML and CSS
 
 ## Description
 
