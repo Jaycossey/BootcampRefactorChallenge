@@ -22,6 +22,10 @@ Completed.
 - HTML
 - CSS
 
+## Usage
+
+Please not this page is not designed for responsive web design and will not display correctly on screens less than 768px in width.
+
 ## License
 
 See License for details
